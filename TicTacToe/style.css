@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #8F8F8F;
+    text-align: center;
+    background-image: url(ox.jpg);
+}
+h1{
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   color:darkblue;
+}
+.container{
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+.Game{
+   height: 70vh;
+   width: 70vh;
+   gap: 1.5vmin;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   flex-wrap: wrap;
+
+   
+   
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 7px;
+    border: none;
+    font-size: 8vmin;
+    background-color: rgb(24, 23, 22);
+    color: white;
+}
+#reset-btn{
+    height: 5vh;
+    width: 20vh;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    font-size:2 vmin ;
+    background-color: black;
+}
+#newBtn{
+    height: 4.5vh;
+    width: 18vh;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    font-size:2 vmin ;
+    background-color: black;
+}
+#msg{
+    color: whitesmoke;
+    font-style: italic;
+    font-size: 8vmin;
+}
+.msg-container{
+    height: 20vmin;
+}
+.hide{
+    display: none;
+}
